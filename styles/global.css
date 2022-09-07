@@ -5,11 +5,7 @@
 }
 
 body {
-    height: 100vh;
-    font-family: 'Rubik', san-serif;
-    background: var(--background);
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    background-color: blanchedalmond;
 }
 
 header {
@@ -17,9 +13,26 @@ header {
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--header-background);
+    background-color: rgb(233, 195, 149);
+    font-family: cursive;
+    font-size: 20px;
 }
 
+h3,
+h4 {
+    border: 2px rgb(100, 36, 36) solid;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+}
 main {
     padding: 20px;
 }
@@ -36,6 +49,4 @@ footer {
 
 img {
     height: 600px;
-    text-align: center;
-    padding: 0px;
 }
