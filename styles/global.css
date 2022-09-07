@@ -24,6 +24,8 @@ h4 {
     font-size: 25px;
     font-weight: bold;
     font-family: sans-serif;
+    display: inline;
+    margin: 20px;
 }
 
 p {
@@ -32,6 +34,7 @@ p {
 
 ul {
     font-size: 18px;
+    padding: 20px;
 }
 main {
     padding: 20px;
@@ -49,4 +52,5 @@ footer {
 
 img {
     height: 600px;
+    padding: 20px;
 }
